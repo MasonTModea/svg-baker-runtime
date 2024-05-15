@@ -2387,11 +2387,6 @@ ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
-image-size@^0.5.1:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
-  integrity sha512-6TDAlDPZxUFCv+fuOkIoXT/V/f3Qbq8e37p+YOiYrUv3v9cc3/6x78VdfPgFVaB9dZYeLUfKgHRebpkm/oP2VQ==
-
 indent-string@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-2.1.0.tgz#8e2d48348742121b4a8218b7a137e9a52049dc80"
@@ -2628,7 +2623,7 @@ is-number@^3.0.0:
   dependencies:
     kind-of "^3.0.2"
 
-is-plain-obj@^1.1.0:
+is-plain-obj@^1.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
   integrity sha512-yvkRyxmFKEOQ4pNXCmJG5AEQNlXJS5LaONXo5/cLdTZdWvsZ1ioJEonLGAosKlMWE8lwUy/bJzMjcw8az73+Fg==
@@ -3063,12 +3058,12 @@ meow@^3.1.0:
     redent "^1.0.0"
     trim-newlines "^1.0.0"
 
-merge-options@0.0.64:
-  version "0.0.64"
-  resolved "https://registry.yarnpkg.com/merge-options/-/merge-options-0.0.64.tgz#cbe04f594a6985eaf27f7f8f0b2a3acf6f9d562d"
-  integrity sha512-5ZCbF86zeKknQJoGnOlGLBL6ltW8NK0AjI10p7HCMvwFij5KymKJCElM/5mzJ3+zSgQRdjIdyi2NucWTUA4xoA==
+merge-options@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/merge-options/-/merge-options-1.0.1.tgz#2a64b24457becd4e4dc608283247e94ce589aa32"
+  integrity sha512-iuPV41VWKWBIOpBsjoxjDZw8/GbSfZ2mk7N1453bwMrfzdrIk7EzBd+8UVR6rkw67th7xnk9Dytl3J+lHPdxvg==
   dependencies:
-    is-plain-obj "^1.1.0"
+    is-plain-obj "^1.1"
 
 micromatch@3.1.0:
   version "3.1.0"
@@ -3620,10 +3615,10 @@ posthtml-parser@^0.4.1:
   dependencies:
     htmlparser2 "^3.9.2"
 
-posthtml-rename-id@^1.1.0-alpha.10475b37:
-  version "1.1.0-alpha.10475b37"
-  resolved "https://registry.yarnpkg.com/posthtml-rename-id/-/posthtml-rename-id-1.1.0-alpha.10475b37.tgz#96a531a1dd8708d58cfbfc7a92fedd491a7e61b8"
-  integrity sha512-+8NzhpJQIsfwKMRmvRwCIq023q/3CRm+++uK/CbJTBmgGKWlI5ZbIQl8S69aCzhEavDBCcoAyTtOFTMq0hYcgg==
+posthtml-rename-id@^1.0.4:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/posthtml-rename-id/-/posthtml-rename-id-1.0.12.tgz#cf7f6eb37146bf1afac31e68f18c6cc19ae61433"
+  integrity sha512-UKXf9OF/no8WZo9edRzvuMenb6AD5hDLzIepJW+a4oJT+T/Lx7vfMYWT4aWlGNQh0WMhnUx1ipN9OkZ9q+ddEw==
   dependencies:
     escape-string-regexp "1.0.5"
 
@@ -3640,7 +3635,7 @@ posthtml@^0.11.3:
     posthtml-parser "^0.4.1"
     posthtml-render "^1.1.5"
 
-postsvg@^2.2.0-alpha.10475b37:
+postsvg@^2.1.2:
   version "2.2.7"
   resolved "https://registry.yarnpkg.com/postsvg/-/postsvg-2.2.7.tgz#b345488cec971dcd17dd330b2e613542285940cb"
   integrity sha512-TyRnoyEvszrEGOzxaTycnUgJZ0W2Xnd9fOmgfuy61Qjo6JhDPhAIBQ1dspQCvdVpK9KkIlZkSETSjmbO0gVIag==
@@ -4527,22 +4522,21 @@ supports-color@^5.3.0, supports-color@^5.4.0:
   dependencies:
     has-flag "^3.0.0"
 
-svg-baker@^2.1.0-alpha.10475b37:
-  version "2.1.0-alpha.10475b37"
-  resolved "https://registry.yarnpkg.com/svg-baker/-/svg-baker-2.1.0-alpha.10475b37.tgz#cb30e8aa075947761ff4dc324b78c23dca4c4645"
-  integrity sha512-N0fhXbvmcUytk+S6jE/YSXdjYW84clh4IKBDamRBpxhb2bmdRI9GrMph1jBQ5PVgBn6Yz9hVD02rBqLRltKWaw==
+svg-baker@^2.0.2-alpha.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/svg-baker/-/svg-baker-2.0.2.tgz#128203178ed6553400dc0d268835e49cf476b7c7"
+  integrity sha512-44Ba25SK9rIK+RvNcaJhzCsmeP4HNHPdM6dTGVe55K4VLrsSWuVv4xPEJrfYAwuxgGbCohlhebbJwyFoewacLw==
   dependencies:
     bluebird "^3.5.0"
     fs-extra "^5.0.0"
     glob-all "^3.1.0"
     he "^1.1.1"
-    image-size "^0.5.1"
-    merge-options "0.0.64"
+    merge-options "^1.0.0"
     micromatch "3.1.0"
     postcss "^6.0.21"
     postcss-prefix-selector "^1.6.0"
-    posthtml-rename-id "^1.1.0-alpha.10475b37"
-    postsvg "^2.2.0-alpha.10475b37"
+    posthtml-rename-id "^1.0.4"
+    postsvg "^2.1.2"
     query-string "^6.0.0"
     traverse "^0.6.6"
     url-slug "^2.0.0"
